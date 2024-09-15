@@ -1,0 +1,56 @@
+body{
+    color: rgb(244, 238, 238);
+    background: rgba(240, 130, 231, 0.886);
+    margin: 0px;
+    font-family: "Oswald", sans-serif;
+    margin-bottom: 100px;
+}
+
+header{
+  border: solid 2px black;
+  padding: 0px;
+ font-size: 32px;
+ color: rgb(30, 128, 185);
+}
+
+    .chamada{
+        background: rgb(65, 22, 84);
+        padding-bottom: 60px;
+        padding-top: 60px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .chamada-texto{
+        margin-right: 5%;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    .categoria-músicas {
+        display: flex;
+        overflow-x: auto;
+        gap: 10px;
+    }
+
+    .categoria {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 50px;
+    }
+
+    .categoria-músicas img{
+        opacity: 0.7;
+        height: 200px;
+    }
+
+        .categoria-músicas img:hover{
+           opacity: 1.7; 
+           border: 1px solid black;
+        }
